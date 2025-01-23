@@ -1,7 +1,7 @@
-# starter
+# arbetsmarknad.github.io
 
-Web starter project.
+Ett dokumentationsnav om den svenska arbetmarknaden
 
 ## License
 
-[MIT](https://github.com/arbetsmarknad/starter/blob/main/license)
+[MIT](https://github.com/arbetsmarknad/arbetsmarknad.github.io/blob/main/license)
