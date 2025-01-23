@@ -25,7 +25,7 @@ export default function Home() {
             </BreadcrumbItem>
             <BreadcrumbSeparator />
             <BreadcrumbItem>
-              <BreadcrumbLink href="/">Home</BreadcrumbLink>
+              <BreadcrumbLink href="/">Start</BreadcrumbLink>
             </BreadcrumbItem>
           </BreadcrumbList>
         </Container>
@@ -33,7 +33,7 @@ export default function Home() {
       <main className="flex flex-col items-center w-full py-4">
         <Container className="flex flex-col items-start gap-y-12 prose">
           <TopLevelHeading
-            text="Arbetsmarknaden:"
+            text="arbetsmarknad.github.io"
             subtext="Ett dokumentationsnav om den svenska arbetmarknaden"
           />
           <ol className="list-disc ps-4">
@@ -48,9 +48,9 @@ export default function Home() {
             <li>
               <a
                 className="text-blue-600 underline"
-                href="https://kolleketivavtal.github.io/"
+                href="https://kollektivavtal.github.io/"
               >
-                Kolleketivavtal
+                Kollektivavtal
               </a>
             </li>
           </ol>
