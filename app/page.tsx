@@ -25,15 +25,35 @@ export default function Home() {
             </BreadcrumbItem>
             <BreadcrumbSeparator />
             <BreadcrumbItem>
-              <BreadcrumbLink href="/components">Components</BreadcrumbLink>
+              <BreadcrumbLink href="/">Home</BreadcrumbLink>
             </BreadcrumbItem>
           </BreadcrumbList>
         </Container>
       </Breadcrumb>
       <main className="flex flex-col items-center w-full py-4">
-        <Container className="flex flex-col items-start space-y-4">
-          <TopLevelHeading text="Arbetsmarknad Starter Project" />
-          <p>This is a starter project for Arbetsmarknad web content.</p>
+        <Container className="flex flex-col items-start gap-y-12 prose">
+          <TopLevelHeading
+            text="Arbetsmarknaden:"
+            subtext="Ett dokumentationsnav om den svenska arbetmarknaden"
+          />
+          <ol className="list-disc ps-4">
+            <li>
+              <a
+                className="text-blue-600 underline"
+                href="https://lagstiftning.github.io/"
+              >
+                Lagstiftning
+              </a>
+            </li>
+            <li>
+              <a
+                className="text-blue-600 underline"
+                href="https://kolleketivavtal.github.io/"
+              >
+                Kolleketivavtal
+              </a>
+            </li>
+          </ol>
         </Container>
       </main>
     </Page>
