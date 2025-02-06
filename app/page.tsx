@@ -6,7 +6,9 @@ import {
   BreadcrumbSeparator,
 } from "@arbetsmarknad/components/Breadcrumb";
 import { Container } from "@arbetsmarknad/components/Container";
+import { Footer } from "@arbetsmarknad/components/Footer";
 import { HeaderMenu } from "@arbetsmarknad/components/HeaderMenu";
+import { Main } from "@arbetsmarknad/components/Main";
 import { Page } from "@arbetsmarknad/components/Page";
 import {
   DescriptionList,
@@ -25,20 +27,18 @@ export default function Home() {
         href="https://arbetsmarknad.github.io"
         text="arbetsmarknad.github.io"
       />
-      <Breadcrumb className="py-4 w-full flex justify-center">
-        <Container>
-          <BreadcrumbList>
-            <BreadcrumbItem>
-              <BreadcrumbLink href="/">Arbetsmarknad</BreadcrumbLink>
-            </BreadcrumbItem>
-            <BreadcrumbSeparator />
-            <BreadcrumbItem>
-              <BreadcrumbLink href="/">Start</BreadcrumbLink>
-            </BreadcrumbItem>
-          </BreadcrumbList>
-        </Container>
+      <Breadcrumb>
+        <BreadcrumbList>
+          <BreadcrumbItem>
+            <BreadcrumbLink href="/">Arbetsmarknad</BreadcrumbLink>
+          </BreadcrumbItem>
+          <BreadcrumbSeparator />
+          <BreadcrumbItem>
+            <BreadcrumbLink href="/">Start</BreadcrumbLink>
+          </BreadcrumbItem>
+        </BreadcrumbList>
       </Breadcrumb>
-      <main className="flex flex-col items-center w-full py-4">
+      <Main>
         <Container className="flex flex-col items-start gap-y-12 prose">
           <TopLevelHeading
             text="arbetsmarknad.github.io"
@@ -91,7 +91,8 @@ export default function Home() {
             </DescriptionList>
           </Section>
         </Container>
-      </main>
+      </Main>
+      <Footer sourceCode={["arbetsmarknad/components"]} />
     </Page>
   );
 }
