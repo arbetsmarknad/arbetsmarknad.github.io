@@ -50,7 +50,7 @@ export default function Home() {
               <DescriptionItem>
                 <DescriptionTerm>
                   <a
-                    className="font-bold underline text-blue-600"
+                    className="font-bold underline text-link"
                     href="https://arbetsmiljo.github.io/"
                   >
                     Arbetsmiljö
@@ -64,7 +64,7 @@ export default function Home() {
               <DescriptionItem>
                 <DescriptionTerm>
                   <a
-                    className="font-bold underline text-blue-600"
+                    className="font-bold underline text-link"
                     href="https://kollektivavtal.github.io/"
                   >
                     Kollektivavtal
@@ -78,7 +78,7 @@ export default function Home() {
               <DescriptionItem>
                 <DescriptionTerm>
                   <a
-                    className="font-bold underline text-blue-600"
+                    className="font-bold underline text-link"
                     href="https://lagstiftning.github.io/"
                   >
                     Lagstiftning
