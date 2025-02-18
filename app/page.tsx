@@ -24,8 +24,8 @@ export default function Home() {
   return (
     <Page>
       <HeaderMenu
-        href="https://arbetsmarknad.github.io"
-        text="arbetsmarknad.github.io"
+        canonicalUrl={process.env.CANONICAL_URL!}
+        deploymentUrl={process.env.DEPLOYMENT_URL!}
       />
       <Breadcrumb>
         <BreadcrumbList>

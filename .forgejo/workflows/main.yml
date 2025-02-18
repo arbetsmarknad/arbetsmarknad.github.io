@@ -1,0 +1,28 @@
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  main:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: pnpm/action-setup@v4
+        with:
+          run_install: true
+          version: 10
+
+      - run: pnpm build
+        env:
+          NEXT_PUBLIC_BASE_PATH: "/${{ github.event.repository.name }}"
+
+      - uses: https://itsblue.dev/actions/codeberg-pages-deploy@v1
+        with:
+          folder: out
+          git_branch: pages
