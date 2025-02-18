@@ -24,8 +24,8 @@ export default function Home() {
   return (
     <Page>
       <HeaderMenu
-        canonicalUrl={process.env.CANONICAL_URL!}
-        deploymentUrl={process.env.DEPLOYMENT_URL!}
+        canonicalUrl={process.env.NEXT_PUBLIC_CANONICAL_URL!}
+        deploymentUrl={process.env.NEXT_PUBLIC_DEPLOYMENT_URL!}
       />
       <Breadcrumb>
         <BreadcrumbList>

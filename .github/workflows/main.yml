@@ -24,8 +24,8 @@ jobs:
 
       - uses: peaceiris/actions-gh-pages@v3
         env:
-          CANONICAL_URL: ${{ secrets.CANONICAL_URL }}
-          DEPLOYMENT_URL: ${{ secrets.DEPLOYMENT_URL }}
+          NEXT_PUBLIC_CANONICAL_URL: ${{ secrets.NEXT_PUBLIC_CANONICAL_URL }}
+          NEXT_PUBLIC_DEPLOYMENT_URL: ${{ secrets.NEXT_PUBLIC_DEPLOYMENT_URL }}
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: out
