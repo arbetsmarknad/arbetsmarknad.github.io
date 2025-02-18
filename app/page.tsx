@@ -21,6 +21,10 @@ import { SectionHeading } from "@arbetsmarknad/components/SectionHeading";
 import { TopLevelHeading } from "@arbetsmarknad/components/TopLevelHeading";
 
 export default function Home() {
+  console.log(process.env.NEXT_PUBLIC_CANONICAL_URL);
+  console.log(process.env.NEXT_PUBLIC_CANONICAL_URL!.length);
+  console.log(process.env.NEXT_PUBLIC_DEPLOYMENT_URL);
+  console.log(process.env.NEXT_PUBLIC_DEPLOYMENT_URL!.length);
   return (
     <Page>
       <HeaderMenu
