@@ -21,6 +21,8 @@ jobs:
       - run: pnpm build
         env:
           NEXT_PUBLIC_BASE_PATH: "/${{ github.event.repository.name }}"
+          NEXT_PUBLIC_CANONICAL_URL: "https://arbetsmarknad.codeberg.page"
+          NEXT_PUBLIC_DEPLOYMENT_URL: https://arbetsmarknad.codeberg.page"
 
       - uses: https://itsblue.dev/actions/codeberg-pages-deploy@v1
         with:
