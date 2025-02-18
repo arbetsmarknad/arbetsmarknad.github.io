@@ -21,16 +21,12 @@ import { SectionHeading } from "@arbetsmarknad/components/SectionHeading";
 import { TopLevelHeading } from "@arbetsmarknad/components/TopLevelHeading";
 
 export default function Home() {
-  console.log(process.env.NEXT_PUBLIC_CANONICAL_URL);
-  console.log(process.env.NEXT_PUBLIC_CANONICAL_URL!.length);
-  console.log(process.env.NEXT_PUBLIC_DEPLOYMENT_URL);
-  console.log(process.env.NEXT_PUBLIC_DEPLOYMENT_URL!.length);
+  const canonicalUrl = process.env.NEXT_PUBLIC_CANONICAL_URL!;
+  const deploymentUrl = process.env.NEXT_PUBLIC_DEPLOYMENT_URL!;
+  const canonicalHostname = new URL(canonicalUrl).hostname;
   return (
     <Page>
-      <HeaderMenu
-        canonicalUrl={process.env.NEXT_PUBLIC_CANONICAL_URL!}
-        deploymentUrl={process.env.NEXT_PUBLIC_DEPLOYMENT_URL!}
-      />
+      <HeaderMenu canonicalUrl={canonicalUrl} deploymentUrl={deploymentUrl} />
       <Breadcrumb>
         <BreadcrumbList>
           <BreadcrumbItem>
@@ -45,7 +41,7 @@ export default function Home() {
       <Main>
         <Container className="flex flex-col items-start gap-y-12 prose">
           <TopLevelHeading
-            text="arbetsmarknad.github.io"
+            text={canonicalHostname}
             subtext="Ett dokumentationsnav om den svenska arbetmarknaden"
           />
           <Section>
