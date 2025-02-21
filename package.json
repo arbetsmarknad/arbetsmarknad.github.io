@@ -27,6 +27,7 @@
     "build": "next build",
     "dev": "next dev",
     "lint": "next lint",
+    "ship": "pnpm build && npx gh-pages --nojekyll --no-history --branch pages -d out --repo git@codeberg.org:arbetsmarknad/pages.git",
     "start": "next start"
   },
   "version": "0.1.0"
