@@ -1,4 +1,5 @@
 {
+  "author": "Henry Catalini Smith <henry@catalinismith.com>",
   "dependencies": {
     "next": "15.1.6",
     "react": "^19.0.0",
@@ -17,6 +18,8 @@
     "tailwindcss": "^4.0.0",
     "typescript": "^5"
   },
+  "homepage": "https://codeberg.org/arbetsmarknad/pages",
+  "license": "CC0-1.0",
   "name": "@arbetsmarknad/starter",
   "postcss": {
     "plugins": {

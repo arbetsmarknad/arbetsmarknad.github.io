@@ -4,4 +4,4 @@ Ett dokumentationsnav om den svenska arbetmarknaden
 
 ## License
 
-[MIT](https://github.com/arbetsmarknad/arbetsmarknad.github.io/blob/main/license)
+[CC-0](https://codeberg.org/arbetsmarknad/pages/src/branch/main/license)
