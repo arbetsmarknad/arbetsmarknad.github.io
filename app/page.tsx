@@ -93,7 +93,7 @@ export default function Home() {
         </Container>
       </Main>
       <Footer
-        sourceCode={["arbetsmarknad/pages", "arbetsmarknad/components"]}
+        sourceCode={["arbetsmarknad/arbetsmarknad.github.io", "arbetsmarknad/components"]}
       />
     </Page>
   );
