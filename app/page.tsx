@@ -51,7 +51,7 @@ export default function Home() {
                 <DescriptionTerm>
                   <a
                     className="font-bold underline text-link"
-                    href="https://arbetsmiljo.codeberg.page/"
+                    href="https://arbetsmiljo.github.io/"
                   >
                     Arbetsmiljö
                   </a>
@@ -65,7 +65,7 @@ export default function Home() {
                 <DescriptionTerm>
                   <a
                     className="font-bold underline text-link"
-                    href="https://kollektivavtal.codeberg.page/"
+                    href="https://kollektivavtal.github.io/"
                   >
                     Kollektivavtal
                   </a>
@@ -79,7 +79,7 @@ export default function Home() {
                 <DescriptionTerm>
                   <a
                     className="font-bold underline text-link"
-                    href="https://lagstiftning.codeberg.page/"
+                    href="https://lagstiftning.github.io/"
                   >
                     Lagstiftning
                   </a>
