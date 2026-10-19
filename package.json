@@ -8,7 +8,7 @@
     "tailwind-merge": "^2.6.0"
   },
   "devDependencies": {
-    "@arbetsmarknad/components": "^1.4.0",
+    "@svenskamodellen/components": "^1.4.0",
     "@eslint/eslintrc": "^3",
     "@tailwindcss/postcss": "^4.0.0",
     "@types/node": "^20",
@@ -20,9 +20,9 @@
     "tailwindcss": "^4.0.0",
     "typescript": "^5"
   },
-  "homepage": "https://github.com/arbetsmarknad/arbetsmarknad.github.io/",
+  "homepage": "https://github.com/svenskamodellen/svenskamodellen.github.io/",
   "license": "CC0-1.0",
-  "name": "@arbetsmarknad/starter",
+  "name": "@svenskamodellen/starter",
   "postcss": {
     "plugins": {
       "@tailwindcss/postcss": {}
@@ -32,7 +32,7 @@
     "build": "next build",
     "dev": "next dev",
     "lint": "next lint",
-    "ship": "pnpm build && npx gh-pages --nojekyll --no-history --branch gh-pages -d out --repo git@github.com:arbetsmarknad/arbetsmarknad.github.io.git",
+    "ship": "pnpm build && npx gh-pages --nojekyll --no-history --branch gh-pages -d out --repo git@github.com:svenskamodellen/svenskamodellen.github.io.git",
     "start": "next start"
   },
   "version": "0.1.0"

@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Arbetsmarknad",
+  title: "Svenska modellen",
   description: "Ett dokumentationsnav om den svenska arbetmarknaden",
 };
 

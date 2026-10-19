@@ -21,8 +21,8 @@ jobs:
       - run: pnpm build
         env:
           NEXT_PUBLIC_BASE_PATH: "/${{ github.event.repository.name }}"
-          NEXT_PUBLIC_CANONICAL_URL: https://arbetsmarknad.github.io
-          NEXT_PUBLIC_DEPLOYMENT_URL: https://arbetsmarknad.github.io
+          NEXT_PUBLIC_CANONICAL_URL: https://svenskamodellen.github.io
+          NEXT_PUBLIC_DEPLOYMENT_URL: https://svenskamodellen.github.io
 
       - uses: peaceiris/actions-gh-pages@v3
         with:

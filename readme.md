@@ -1,7 +1,7 @@
-# arbetsmarknad.github.io
+# svenskamodellen.github.io
 
-The central homepage of the arbetsmarknad Swedish labour market documentation project, at [arbetsmarknad.github.io](https://arbetsmarknad.github.io/).
+The central homepage of the svenskamodellen Swedish labour market documentation project, at [svenskamodellen.github.io](https://svenskamodellen.github.io/).
 
 ## License
 
-[CC-0](https://github.com/arbetsmarknad/arbetsmarknad.github.io/blob/main/license)
+[CC-0](https://github.com/svenskamodellen/svenskamodellen.github.io/blob/main/license)

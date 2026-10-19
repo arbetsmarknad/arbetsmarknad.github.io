@@ -4,21 +4,21 @@ import {
   BreadcrumbLink,
   BreadcrumbList,
   BreadcrumbSeparator,
-} from "@arbetsmarknad/components/Breadcrumb";
-import { Container } from "@arbetsmarknad/components/Container";
-import { Footer } from "@arbetsmarknad/components/Footer";
-import { HeaderMenu } from "@arbetsmarknad/components/HeaderMenu";
-import { Main } from "@arbetsmarknad/components/Main";
-import { Page } from "@arbetsmarknad/components/Page";
+} from "@svenskamodellen/components/Breadcrumb";
+import { Container } from "@svenskamodellen/components/Container";
+import { Footer } from "@svenskamodellen/components/Footer";
+import { HeaderMenu } from "@svenskamodellen/components/HeaderMenu";
+import { Main } from "@svenskamodellen/components/Main";
+import { Page } from "@svenskamodellen/components/Page";
 import {
   DescriptionList,
   DescriptionItem,
   DescriptionTerm,
   DescriptionDetails,
 } from "@/components/DescriptionList";
-import { Section } from "@arbetsmarknad/components/Section";
-import { SectionHeading } from "@arbetsmarknad/components/SectionHeading";
-import { TopLevelHeading } from "@arbetsmarknad/components/TopLevelHeading";
+import { Section } from "@svenskamodellen/components/Section";
+import { SectionHeading } from "@svenskamodellen/components/SectionHeading";
+import { TopLevelHeading } from "@svenskamodellen/components/TopLevelHeading";
 
 export default function Home() {
   const canonicalUrl = process.env.NEXT_PUBLIC_CANONICAL_URL!;
@@ -30,7 +30,7 @@ export default function Home() {
       <Breadcrumb>
         <BreadcrumbList>
           <BreadcrumbItem>
-            <BreadcrumbLink href="/">Arbetsmarknad</BreadcrumbLink>
+            <BreadcrumbLink href="/">Svenska modellen</BreadcrumbLink>
           </BreadcrumbItem>
           <BreadcrumbSeparator />
           <BreadcrumbItem>
@@ -93,7 +93,7 @@ export default function Home() {
         </Container>
       </Main>
       <Footer
-        sourceCode={["arbetsmarknad/arbetsmarknad.github.io", "arbetsmarknad/components"]}
+        sourceCode={["svenskamodellen/svenskamodellen.github.io", "svenskamodellen/components"]}
       />
     </Page>
   );
