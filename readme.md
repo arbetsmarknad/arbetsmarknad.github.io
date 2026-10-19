@@ -1,6 +1,6 @@
 # arbetsmarknad.github.io
 
-Ett dokumentationsnav om den svenska arbetmarknaden
+The central homepage of the arbetsmarknad Swedish labour market documentation project, at [arbetsmarknad.github.io](https://arbetsmarknad.github.io/).
 
 ## License
 
