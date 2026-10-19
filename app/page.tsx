@@ -15,7 +15,7 @@ import {
   DescriptionItem,
   DescriptionTerm,
   DescriptionDetails,
-} from "@arbetsmarknad/components/DescriptionList";
+} from "@/components/DescriptionList";
 import { Section } from "@arbetsmarknad/components/Section";
 import { SectionHeading } from "@arbetsmarknad/components/SectionHeading";
 import { TopLevelHeading } from "@arbetsmarknad/components/TopLevelHeading";
