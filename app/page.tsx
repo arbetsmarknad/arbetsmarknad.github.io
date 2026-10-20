@@ -21,12 +21,8 @@ import { SectionHeading } from "@svenskamodellen/components/SectionHeading";
 import { TopLevelHeading } from "@svenskamodellen/components/TopLevelHeading";
 
 export default function Home() {
-  const canonicalUrl = process.env.NEXT_PUBLIC_CANONICAL_URL!;
-  const deploymentUrl = process.env.NEXT_PUBLIC_DEPLOYMENT_URL!;
-  const canonicalHostname = new URL(canonicalUrl).hostname;
   return (
     <Page>
-      <HeaderMenu canonicalUrl={canonicalUrl} deploymentUrl={deploymentUrl} />
       <Breadcrumb>
         <BreadcrumbList>
           <BreadcrumbItem>
@@ -39,9 +35,9 @@ export default function Home() {
         </BreadcrumbList>
       </Breadcrumb>
       <Main>
-        <Container className="flex flex-col items-start gap-y-12 prose">
+        <Container className="flex flex-col items-start gap-y-12">
           <TopLevelHeading
-            text={canonicalHostname}
+            text="Svenska Modellen"
             subtext="Ett dokumentationsnav om den svenska arbetmarknaden"
           />
           <Section>
@@ -50,7 +46,7 @@ export default function Home() {
               <DescriptionItem>
                 <DescriptionTerm>
                   <a
-                    className="font-bold underline text-link"
+                    className="font-serif text-lg font-bold underline text-link"
                     href="https://arbetsmiljo.github.io/"
                   >
                     Arbetsmiljö
@@ -64,7 +60,21 @@ export default function Home() {
               <DescriptionItem>
                 <DescriptionTerm>
                   <a
-                    className="font-bold underline text-link"
+                    className="font-serif text-lg font-bold underline text-link"
+                    href="https://fackforbund.github.io/"
+                  >
+                    Fackförbund
+                  </a>
+                </DescriptionTerm>
+                <DescriptionDetails>
+                  Sveriges fackförbund och deras kollektivavtal
+                </DescriptionDetails>
+              </DescriptionItem>
+
+              <DescriptionItem>
+                <DescriptionTerm>
+                  <a
+                    className="font-serif text-lg font-bold underline text-link"
                     href="https://kollektivavtal.github.io/"
                   >
                     Kollektivavtal
@@ -78,7 +88,7 @@ export default function Home() {
               <DescriptionItem>
                 <DescriptionTerm>
                   <a
-                    className="font-bold underline text-link"
+                    className="font-serif text-lg font-bold underline text-link"
                     href="https://lagstiftning.github.io/"
                   >
                     Lagstiftning
