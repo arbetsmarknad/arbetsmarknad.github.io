@@ -7,7 +7,6 @@ import {
 } from "@svenskamodellen/components/Breadcrumb";
 import { Container } from "@svenskamodellen/components/Container";
 import { Footer } from "@svenskamodellen/components/Footer";
-import { HeaderMenu } from "@svenskamodellen/components/HeaderMenu";
 import { Main } from "@svenskamodellen/components/Main";
 import { Page } from "@svenskamodellen/components/Page";
 import {
