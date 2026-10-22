@@ -47,5 +47,5 @@ export const DescriptionDetails: FC<DescriptionDetailsProps> = ({
   children,
   className,
 }) => {
-  return <dd className={cn("mb-4 font-lilex text-sm text-slate-500 dark:text-slate-400", className)}>{children}</dd>;
+  return <dd className={cn("mb-4 body-text text-slate-500 dark:text-slate-400", className)}>{children}</dd>;
 };
