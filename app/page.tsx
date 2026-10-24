@@ -37,6 +37,7 @@ export default function Home() {
             text="Svenska Modellen"
             subtext="Ett dokumentationsnav om den svenska arbetmarknaden"
           />
+          <p className="max-w-prose body-text">Svenska Modellen är ett webbprojekt som fyller luckor i den svenska arbetarrörelsens informationsinfrastruktur genom att arkivera kollektivavtal, göra Arbetsmiljöverkets diarium mer överblickbart och begripligt med hjälp av datavisualisering samt komplettera bristande engelska översättningar av arbetsrättslig lagstiftning.</p>
             <DescriptionList>
               <DescriptionItem>
                 <DescriptionTerm>
@@ -48,7 +49,7 @@ export default function Home() {
                   </a>
                 </DescriptionTerm>
                 <DescriptionDetails>
-                  Statistik och data om arbetsmiljö
+                  Statistik och grafer om arbetsmiljö
                 </DescriptionDetails>
               </DescriptionItem>
 
